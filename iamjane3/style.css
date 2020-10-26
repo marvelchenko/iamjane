@@ -1,0 +1,72 @@
+body {
+  background-color: #202020;
+}
+
+header {
+  background-image: url(./assets/bg.png);
+  height: 100vmin;
+}
+
+header .navbar-nav a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.my-4 {
+  width: 40%;
+}
+
+.sm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.sm li {
+  list-style: none;
+}
+
+.image {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  width: 100%;
+}
+
+.image img {
+  width: inherit;
+  max-width: 28rem;
+}
+
+.right_about {
+  display: -ms-grid;
+  display: grid;
+  width: 360px;
+  height: 578px;
+  font-size: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section #gallery {
+  width: 794px;
+  height: 336px;
+}
+
+.col-md-4 img {
+  height: 320px;
+  width: 350px;
+  border: solid green 2px;
+}
+
+.col-md-4 {
+  margin-top: 10px;
+}
+
+.contact {
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */

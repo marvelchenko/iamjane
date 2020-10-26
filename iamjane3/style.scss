@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+header{
+    background-image: url(./assets/bg.png);
+    height: 100vmin;
+    .navbar-nav a:hover{
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
+}
+
+.my-4{
+    width: 40%;
+}
+
+    .sm{
+        display: flex;
+        width: 100%;
+        li{
+            list-style: none;
+        }
+    }
+
+.image{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    img{
+        width: inherit;
+        max-width: 28rem;
+    }
+
+} 
+
+.right_about{
+        display: grid;
+        width: 360px;
+        height: 578px;
+        font-size: 15px;
+        align-items: center;
+}
+
+section #gallery{
+    width: 794px;
+    height: 336px;
+}
+
+.col-md-4 img{
+    height: 320px;
+    width: 350px;
+    border: solid green 2px;
+}
+
+.col-md-4{
+    margin-top: 10px;
+}
+
+.contact{
+    font-size: 18px;
+}
